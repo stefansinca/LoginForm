@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url("/src/media/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.login {
+  width: 400px;
+  height: min-content;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+.login h1 {
+  font-size: 1.8em;
+  margin-bottom: 2rem;
+}
+
+.login form {
+  font-size: 1.3em;
+}
+
+.login form .form-group {
+  margin-bottom: 0.5rem;
+}
+
+.login form input {
+  border-radius: 1rem;
+  border-style: none;
+  height: 3em;
+  margin-bottom: 1.5rem;
+}
+
+.login form input[type="email"] {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  opacity: 1;
+}
+
+.login form input[type="password"] {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.login form input[type="submit"] {
+  font-size: 0.75em;
+  margin-top: 0.3rem;
+  color: black;
+  background: #fbceb5 !important;
+}
+
+.login form input[type="submit"]:hover {
+  background: #f3af8a !important;
+}
+
+.login input::placeholder {
+  color: white;
+}
+
+.error {
+  padding-bottom: 0.7rem;
+  color: #ffd800
+}
+
+.bi {
+  margin-right: 0.5rem;
+  margin-bottom: 0.3rem;
+}

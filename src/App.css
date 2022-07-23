@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+* {
+  font-family: 'Sora', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#root {
+  width: 100%;
+}
+
+.logout-div {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.logout-btn {
+  border: 0.1rem;
+  border-radius: 0.9em;
+  width: 4rem;
+  font-size: 0.8em;
+  text-align: center;
+  height: 1.6rem;
+  background-color: white;
+  color: crimson;
+}
+
+.logout-btn:hover {
+  background-color: rgb(202, 237, 255);
+}
